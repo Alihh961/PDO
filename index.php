@@ -4,9 +4,9 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use App\Repository\MovieRepository;
 
-$m = new MovieRepository();
+$movie = new MovieRepository();
 
-dump($m->fetchAllMovies());
+dump($movie->findById(800));
 
 
 
